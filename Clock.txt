@@ -16,7 +16,7 @@ mm = Integer.parseInt(hrs[1]);
 
       double hangle,minangle,angle;
         hangle=hh*30+(mm*30)/60;
-        minangle=m*6;
+        minangle=mm*6;
         angle=(hangle-minangle);
         if(angle==360)
         {
